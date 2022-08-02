@@ -1,7 +1,7 @@
-.pie-de-pagina{
-    background-color: aqua;}
-body{
-    background-color: #202124;
+
+ body{
+    background-color: #e7e7e7;
+    height: 100vh;
 }
 *{
     box-sizing: border-box;
@@ -11,8 +11,38 @@ body{
 
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: #0d0d0d;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
 }
 li{
     list-style: none;
+}
+/*FOOTER*/
+
+footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.pie-de-pagina{
+    font-size: 14px;
+    font-family: arial;
+}
+.uruguay{
+    padding: 15px 30px;
+    border-bottom: 1px solid #0d0d0d;
+    font-size: 15px;
+    color: #0d0d0d;
+    
+}
+.links-encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+}
+.links-encabezado div{
+    display: flex;
 }
