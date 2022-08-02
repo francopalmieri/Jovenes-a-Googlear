@@ -68,9 +68,11 @@ nav li a:hover{
     width: 24px;
     height: 24px;
 }
+.list-item-navbar{
+    border-radius: 50%;
+}
 .list-item-navbar:hover{
     background-color: #888888c0;
-    border-radius: 50%;
 }
 main div{
     display: flex;
@@ -92,6 +94,11 @@ main div{
     background-color: #eeeeee;
     border-radius: 20px;
     border: solid #8c8c8c 1px;
+}
+.search-bar:hover{
+    box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
+    -moz-box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
 }
 /*FOOTER*/
 
