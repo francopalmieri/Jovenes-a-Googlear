@@ -75,10 +75,9 @@ nav li a:hover{
 }
 .list-item-navbar{
     border-radius: 50%;
-}
-.list-item-navbar:hover{
-    background-color: #888888c0;
-    border: solid #8c8c8c17 1px;
+    border: none;
+    box-shadow: 1px 2px 7px -4px gray ;
+    
 }
 main div{
     display: flex;
@@ -87,24 +86,35 @@ main div{
     flex-direction: column;
 }
 .logo-jap-busqueda{
+    transition: opacity 1s;
     width: 350px;
 }
-
+/* 
+.list-item-navbar:hover{
+    background-color: #888888c0;
+    border: solid #2b96f4 1px;
+} */
 .search-bar--container{
     margin: 10px auto;
 
 }
 .search-bar{
+    padding: 0px 30px;
     width: 550px;
     height: 40px;
     background-color: #eeeeee;
     border-radius: 20px;
-    border: solid #8c8c8c 1px;
+    border: none;
+    box-shadow: 1px 2px 7px -1px gray ;
 }
-.search-bar:hover{
-    box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
-    -webkit-box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
-    -moz-box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
+.search-bar:focus{
+    outline: 2px solid  rgb(238, 217, 62) ;
+    border: solid rgb(159, 238, 62) .3px;
+}
+.search-bar:hover, .list-item-navbar:hover{
+    box-shadow: 10px 8px 23px -8px #2b96f4;
+    -webkit-box-shadow: 10px 8px 23px -8px #2b96f4;
+    -moz-box-shadow: 10px 8px 23px -11px #2b96f4;
 }
 /*FOOTER*/
 a:hover{
@@ -146,7 +156,7 @@ width: 100%;
 .container-busqueda-interior{
     padding: 18px 30px;
     height: 70px;
-    background-color: #e2e2e2;;
+    background-color: white;
     border-radius: 4px;
     color: #000000;
     font-family: arial,sans-serif;
@@ -157,6 +167,14 @@ width: 100%;
     text-align: center;
     cursor: pointer;
     margin-top: 30px;
+    border: none;
+    box-shadow: 1px 2px 7px -1px gray ;
+    
+}
+.container-busqueda-interior:hover{
+    box-shadow: 10px 8px 25px -4px #2b96f4;
+    -webkit-box-shadow: 10px 8px 25px -4px #2b96f4;
+    -moz-box-shadow: 10px 8px 25px -4px #2b96f4;
 }
 .container-busqueda{
     flex-direction: row;
