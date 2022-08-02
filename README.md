@@ -10,4 +10,4 @@ Inspirados en las ocasionales veces en las que Google modifica visualmente su si
 
 
 ## Estado del proyecto
-    Nos encontramos en la primera fase del proyecto, lo comenzaremos a desarrollar por separado cada uno encargándose del contenido y estilo de su sección en ramas independientes para posteriormente unirlas y en el caso de que no hayan conflictos revelarlas a la rama principal.
+Nos encontramos en la primera fase del proyecto, lo comenzaremos a desarrollar por separado cada uno encargándose del contenido y estilo de su sección en ramas independientes para posteriormente unirlas y en el caso de que no hayan conflictos revelarlas a la rama principal.
