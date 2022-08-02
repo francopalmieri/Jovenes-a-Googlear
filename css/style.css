@@ -1,16 +1,40 @@
-body{
-    background-color: #202124;
-}
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #202124;
+}
 a{
     text-decoration: none;
     color: whitesmoke;
 }
 li{
     list-style: none;
+}
+nav div{
+    display: flex;
+    margin: 0 5px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin: 5px 2px;
+    padding: 7px 5px;
+    font: 1.3rem/2.7rem Roboto,Arial,sans-serif;
+}
+.gb_Ba{
+    padding: 5px;
+    margin: 5px;
+}
+.gb_Ue{
+    width: 24px;
+    height: 24px;
 }
