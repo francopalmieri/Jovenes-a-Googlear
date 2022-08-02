@@ -78,6 +78,7 @@ nav li a:hover{
 }
 .list-item-navbar:hover{
     background-color: #888888c0;
+    border: solid #8c8c8c17 1px;
 }
 main div{
     display: flex;
