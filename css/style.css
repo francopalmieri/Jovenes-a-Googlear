@@ -7,6 +7,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    transition: all .8s;
 }
 html{
     font-size: 62.5%;
@@ -27,16 +28,12 @@ main{
 a{
     text-decoration: none;
     color: #0d0d0d;
-    display: block;
-    padding: 15px;
-    white-space: nowrap;
-     
-        
 }
 li{
     list-style: none;
 }
 nav div{
+    height: 50px;
     display: flex;
     margin: 0 5px;
 }
@@ -46,19 +43,42 @@ nav ul{
     justify-content: flex-end;
 }
 nav ul li{
+    display: flex;
+    align-items: center;
     margin: 5px 2px;
     padding: 7px 5px;
-    font: 1.3rem/2.7rem ;
+    font-size: 1.3rem ;
 }
+.aDi{
+    width: 40px;
+    justify-content: center;
+}
+nav{
+    padding-top: 5px;
+}
+nav li a:hover{
+    text-decoration:underline;
+}
+
 .gb_Ba{
+    width: 40px;
+    height: 40px;
     padding: 5px;
     margin: 5px;
+}
+.gb_Ba img{
+    width: 100%;
 }
 .gb_Ue{
     width: 24px;
     height: 24px;
 }
-
+.list-item-navbar{
+    border-radius: 50%;
+}
+.list-item-navbar:hover{
+    background-color: #888888c0;
+}
 main div{
     display: flex;
     justify-content: center;
@@ -79,6 +99,11 @@ main div{
     background-color: #eeeeee;
     border-radius: 20px;
     border: solid #8c8c8c 1px;
+}
+.search-bar:hover{
+    box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
+    -moz-box-shadow: 10px 7px 23px -11px rgba(0,0,0,0.73);
 }
 /*FOOTER*/
 a:hover{
@@ -107,7 +132,12 @@ width: 100%;
     padding: 0px 20px;
 
 }
-
+.links-encabezado a{
+    
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
 .links-encabezado div{
     display: flex;
 }
