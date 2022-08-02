@@ -30,6 +30,8 @@ a{
     display: block;
     padding: 15px;
     white-space: nowrap;
+     
+        
 }
 li{
     list-style: none;
@@ -79,7 +81,9 @@ main div{
     border: solid #8c8c8c 1px;
 }
 /*FOOTER*/
-
+a:hover{
+    text-decoration: underline;
+}
 footer{
 position: fixed;
 bottom: 0;
@@ -91,7 +95,7 @@ width: 100%;
 }
 .uruguay{
     padding: 15px 30px;
-    border-bottom: 1px solid #0d0d0d;
+    border-bottom: 0.1px solid #0d0d0d;
     font-size: 15px;
     color: #0d0d0d;
     
@@ -101,7 +105,33 @@ width: 100%;
     justify-content: space-between;
     width: 100%;
     padding: 0px 20px;
+
 }
+
 .links-encabezado div{
     display: flex;
 }
+/* CONTAINER DE BUSQUEDA*/
+.container-busqueda-interior{
+    padding: 18px 30px;
+    height: 70px;
+    background-color: #e2e2e2;;
+    border-radius: 4px;
+    color: #000000;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 10px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.container-busqueda{
+    flex-direction: row;
+    
+}
+    
+
+
+    
