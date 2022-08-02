@@ -1,18 +1,107 @@
-.pie-de-pagina{
-    background-color: aqua;}
-body{
-    background-color: #202124;
+
+ body{
+    background-color: #e7e7e7;
+    height: 100vh;
 }
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+html{
+    font-size: 62.5%;
+    font-family: Roboto,Arial,sans-serif;
+}
+body{
+    background-color: #fff;
+    height: 100vh;
+}
+main{
+    margin: auto;
+    max-width: 700px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: #0d0d0d;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
 }
 li{
     list-style: none;
+}
+nav div{
+    display: flex;
+    margin: 0 5px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin: 5px 2px;
+    padding: 7px 5px;
+    font: 1.3rem/2.7rem ;
+}
+.gb_Ba{
+    padding: 5px;
+    margin: 5px;
+}
+.gb_Ue{
+    width: 24px;
+    height: 24px;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-jap-busqueda{
+    width: 350px;
+}
+
+.search-bar--container{
+    margin: 10px auto;
+
+}
+.search-bar{
+    width: 550px;
+    height: 40px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    border: solid #8c8c8c 1px;
+}
+/*FOOTER*/
+
+footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.pie-de-pagina{
+    font-size: 14px;
+    font-family: arial;
+}
+.uruguay{
+    padding: 15px 30px;
+    border-bottom: 1px solid #0d0d0d;
+    font-size: 15px;
+    color: #0d0d0d;
+    
+}
+.links-encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+}
+.links-encabezado div{
+    display: flex;
 }
