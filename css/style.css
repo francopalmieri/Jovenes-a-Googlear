@@ -2,14 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    transition: all .8s;
+    transition: all .5s;
 }
 html{
     font-size: 62.5%;
     font-family: Roboto,Arial,sans-serif;
 }
 body{
-    background-color: rgb(185, 246, 231);
+    background-color: #fff;
     height: 100vh;
 
 }
@@ -105,8 +105,7 @@ main div{
     box-shadow: 1px 2px 7px -1px gray ;
 }
 .search-bar:focus{
-    outline: 2px solid  rgb(238, 217, 62) ;
-    border: solid rgb(159, 238, 62) .3px;
+    outline: 2px solid  rgb(158, 236, 62) ;
 }
 .search-bar:hover, .list-item-navbar:hover{
     box-shadow: 10px 8px 23px -8px #2b96f4;
@@ -128,7 +127,7 @@ width: 100%;
 }
 .uruguay{
     padding: 15px 30px;
-    border-bottom: 0.1px solid #0d0d0d;
+    border-bottom: 0.1px solid #2b96f4;
     font-size: 15px;
     color: #0d0d0d;
     
