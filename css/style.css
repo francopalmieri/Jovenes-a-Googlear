@@ -5,13 +5,23 @@
 }
 html{
     font-size: 62.5%;
+    font-family: Roboto,Arial,sans-serif;
 }
 body{
-    background-color: #202124;
+    background-color: #fff;
+    height: 100vh;
+}
+main{
+    margin: auto;
+    max-width: 700px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: #0d0d0d;
 }
 li{
     list-style: none;
@@ -28,7 +38,7 @@ nav ul{
 nav ul li{
     margin: 5px 2px;
     padding: 7px 5px;
-    font: 1.3rem/2.7rem Roboto,Arial,sans-serif;
+    font: 1.3rem/2.7rem ;
 }
 .gb_Ba{
     padding: 5px;
@@ -37,4 +47,26 @@ nav ul li{
 .gb_Ue{
     width: 24px;
     height: 24px;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-jap-busqueda{
+    width: 350px;
+}
+
+.search-bar--container{
+    margin: 10px auto;
+
+}
+.search-bar{
+    width: 550px;
+    height: 40px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    border: solid #8c8c8c 1px;
 }
