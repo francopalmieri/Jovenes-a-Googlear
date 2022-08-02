@@ -11,6 +11,7 @@ html{
 body{
     background-color: rgb(185, 246, 231);
     height: 100vh;
+
 }
 main{
     margin: auto;
@@ -176,7 +177,11 @@ width: 100%;
     flex-direction: row;
     
 }
-    
+    body{
 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
 
     
